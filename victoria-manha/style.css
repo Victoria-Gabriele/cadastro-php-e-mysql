@@ -1,0 +1,141 @@
+/* Reset básico */
+body, h1, h2, h3, p, a, ul, li, table, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fonte mais divertida e descontraída */
+}
+
+/* Estilização geral */
+body {
+    background-color: #f8c8d8; /* Rosa suave */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px; /* Bordas arredondadas para um toque suave */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidade */
+}
+
+h1 {
+    text-align: center;
+    color: #ff69b4; /* Rosa Barbie */
+    margin-bottom: 20px;
+    font-size: 2.5rem; /* Tamanho grande e impactante */
+}
+
+button, input[type="submit"] {
+    background: #ff69b4; /* Rosa Barbie */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 25px; /* Bordas arredondadas */
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+button:hover, input[type="submit"]:hover {
+    background: #ff1493; /* Rosa mais forte ao passar o mouse */
+}
+
+a {
+    text-decoration: none;
+    color: #ff69b4; /* Cor rosa Barbie */
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff1493; /* Cor mais forte ao passar o mouse */
+}
+
+/* Formulário */
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ff69b4; /* Bordas rosa */
+    border-radius: 25px; /* Bordas arredondadas */
+    font-size: 1rem;
+    color: #ff1493; /* Cor de texto mais vibrante */
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table thead {
+    background-color: #ff69b4; /* Rosa Barbie */
+    color: white;
+}
+
+table th, table td {
+    border: 1px solid #ff69b4; /* Bordas rosa */
+    text-align: left;
+    padding: 12px;
+    font-size: 1rem;
+}
+
+table tr:nth-child(even) {
+    background-color: #ffe6f1; /* Rosa claro */
+}
+
+table tr:hover {
+    background-color: #ffb6c1; /* Rosa mais forte ao passar o mouse */
+}
+
+td a {
+    margin-right: 10px;
+}
+
+td a:last-child {
+    margin-right: 0;
+}
+
+td a:hover {
+    color: #ff1493; /* Cor de link mais forte */
+}
+
+/* Rodapé e elementos de navegação */
+footer {
+    text-align: center;
+    margin-top: 80px;
+    background-color: #ff69b4; /* Fundo rosa Barbie */
+    padding: 30px;
+    color: white;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff1493; /* Cor de link mais forte */
+}
+
+footer img {
+    width: 120px; /* Ajuste do tamanho da imagem da Barbie */
+    margin-top: 20px;
+    border-radius: 50%; /* Torna a imagem redonda */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil ao redor da imagem */
+}
